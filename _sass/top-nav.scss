@@ -1,0 +1,13 @@
+.content-top-nav {
+  max-width: 1040px;
+  margin: 0 auto;
+
+  li{
+    display: inline-block;
+  }
+  a {
+    color: #000;
+    padding: .5rem 1rem;
+    display: block;
+  }
+}

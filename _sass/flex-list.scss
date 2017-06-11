@@ -1,0 +1,16 @@
+.flex-list {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  li {
+      margin-bottom: 4%;
+  }
+
+  &.flex-list-4-col li {
+    width: 23%;
+    margin-right: 2%;
+  }
+  img {
+    max-width:100%;
+  }
+}

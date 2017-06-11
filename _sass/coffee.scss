@@ -1,0 +1,15 @@
+.item-roast {
+  background: #efefef;
+  display: block;
+  height: 2rem;
+  font-size: .85rem;
+  margin-bottom: 1.5rem;
+}
+.item-roast-amount::before { content: 'light'; padding:.25rem;padding-left: .5rem;display:inline-block; }
+.item-roast::before { content: 'dark';float:right; padding:.25rem;display:inline-block;padding-right: .5rem;}
+
+.item-roast-amount {
+  background-color: tan;
+  display: block;
+  height: 2rem;
+}

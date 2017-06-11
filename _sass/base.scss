@@ -1,0 +1,133 @@
+@import url( 'https://fonts.googleapis.com/css?family=Merriweather:700|Open+Sans');
+
+html {
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+  line-height: inherit;
+}
+
+footer {
+    text-align: center;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  line-height: 1.75;
+}
+.page-title {
+  font-size: 4rem;
+  margin-bottom: .5rem;
+  font-weight: 700;
+  font-family: 'Merriweather', serif;
+
+  &:after {
+    content: '';
+    margin: .5rem 0 4rem;
+    display: block;
+    text-align: center;
+    height: 8px;
+    background: green;
+    width: 25%;
+  }
+}
+
+
+.card-deck {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 5rem;
+
+  .card {
+    width: 250px;
+
+    img {
+      margin: 0;
+      max-width: 100%;
+    }
+  }
+}
+
+
+.main-content {
+    text-align: initial;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.item-details {
+  margin-bottom: 4rem;
+
+  &:after {
+    content:'';display:table;clear:both;
+  }
+
+}
+
+.item-title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    font-family: 'Merriweather', serif;
+}
+
+.item-price {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.item-photo {
+    width: 50%;
+    margin-top: -5rem;
+    float: left;
+}
+
+.item-info {
+    margin-left: 50%;
+    padding-left: 2rem;
+}
+
+.item-description {
+    margin-left: 50%;
+    padding-left: 2rem;
+}
+
+.description {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+h3,h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-family: 'Merriweather', serif;
+}
+
+.item-usage {
+    margin-bottom: 0.5rem;
+}
+
+button { background: #368138; border: none; padding: 0.25rem 0.5rem; font-size: 1rem; color: #fff; margin-bottom: 0.5rem; border-radius: 2px; }
+button[disabled] { background: #ce3c37; color: #fff; }
+
+.item-ingredients li {
+    display: inline-block;
+}
+
+.item-ingredients li:after {
+    content: ',';
+}
+
+.item-ingredients li:last-child:after {
+    content: '';
+}
+
+.related-items, footer {
+  clear: both;
+}
