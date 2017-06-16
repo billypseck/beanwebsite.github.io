@@ -5,4 +5,7 @@ collections:
   coffee:
     output: true
   menu:
-    outpu: false
+    output: false
+
+gems:
+  - jekyll-money
