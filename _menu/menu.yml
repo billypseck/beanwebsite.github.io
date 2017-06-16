@@ -1,0 +1,47 @@
+- category: breakfast
+  items:
+    - title: Nancy's bagels and cream cheese or butter and jam
+      price: 3.50
+    - title: Veggie bagel deluxe: choice of bagel with cream cheese, sprouts, tomato, and red onion
+      price: 5.50
+    - title: Bagel with salami, cream cheese, sprouts, tomato, and red onion
+      price: 6.00
+    - title: Bagel and melted brie with sprouts, tomato, and red onion
+      price: 6.00
+
+- category: bagels
+  items:
+    - title: Nancy's bagels and cream cheese or butter and jam
+      price: 3.50
+    - title: Veggie bagel deluxe: choice of bagel with cream cheese, sprouts, tomato, and red onion
+      price: 5.50
+    - title: Bagel with salami, cream cheese, sprouts, tomato, and red onion
+      price: 6.00
+    - title: Bagel and melted brie with sprouts, tomato, and red onion
+      price: 6.00
+
+- category: salads
+  items:
+    - title: Pastries from Wiltshire Bakery
+      price: ?
+    - title: Fresh fruit, granola, yogurt and honey
+      price: 5.00
+    - title: Fresh fruit cup
+      price: 5.00
+    - title: Overnight oats of the day
+      price: 5.00
+
+- category: sandwiches
+  items:
+    - title: Tuna salad
+      shortDescription: House-made curried tuna with apples, raisins, and sweet onions served on a Wiltshire baguette
+      price: 8.00
+    - title: Turkey & Swiss
+      shortDescription: Served on a baguette with sprouts, tomato, red onion, mayo and Dijon
+      price: 7.00
+    - title: Turkey & Salami Melt
+      shortDescription: Served with mustard, mayo, sprouts, and tomato
+      price: 8.50
+    - title: The Mediterranean
+      shortDescription: house-made humus, feta, romaine, cucumber, tomato, Kalamata olives, and pepperoncini served on a bagel
+      price: 8.50
