@@ -102,7 +102,16 @@ p {
     margin-bottom: 0.5rem;
 }
 
-h2,h3,h4 {
+h2 {
+  @extend .page-title;
+  font-size: 3rem;
+  border: none;
+  &:after {
+    content: none;
+  }
+}
+
+h3,h4 {
     font-size: 1rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
