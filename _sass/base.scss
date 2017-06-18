@@ -1,4 +1,4 @@
-@import url( 'https://fonts.googleapis.com/css?family=Merriweather:700|Open+Sans');
+@import url( 'https://fonts.googleapis.com/css?family=Merriweather:400,700|Open+Sans:400,600');
 
 html {
     background: #fff;
@@ -104,7 +104,7 @@ p {
 
 h2 {
   @extend .page-title;
-  font-size: 3rem;
+  font-size: 2rem;
   border: none;
   &:after {
     content: none;
