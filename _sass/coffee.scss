@@ -13,3 +13,9 @@
   display: block;
   height: 2rem;
 }
+
+.coffee-list a {
+  text-decoration: none;
+}
+.coffee-name {display:block;font-family: 'Merriweather', serif; font-size: 1.25rem; text-decoration: none;margin-top: .5rem; margin-bottom: .5rem; color: green;}
+.coffee-description {line-height: 1.25; font-size: .9rem; }

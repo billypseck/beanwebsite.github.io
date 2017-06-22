@@ -8,7 +8,7 @@ ingredients:
 roast: 25  
 shortDescription: brown sugar, chocolate-cherry, hints of orange
 price: 10.00
-smallImage: http://lorempixel.com/400/400/abstract/3
-largeImage: http://lorempixel.com/400/400/abstract/3
+smallImage: /assets/images/coffee-guat.jpg
+largeImage: /assets/images/coffee-guat.jpg
 soldOut: false
 ---  

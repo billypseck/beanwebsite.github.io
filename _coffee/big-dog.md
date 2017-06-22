@@ -8,7 +8,7 @@ ingredients:
 roast: 87  
 shortDescription: rich, cocoa and vanilla (our cold brew blend)
 price: 10.00
-smallImage: http://lorempixel.com/400/400/abstract/1
-largeImage: http://lorempixel.com/400/400/abstract/1
+smallImage: /assets/images/coffee-bigdog.jpg
+largeImage: /assets/images/coffee-bigdog.jpg
 soldOut: true
 ---  
