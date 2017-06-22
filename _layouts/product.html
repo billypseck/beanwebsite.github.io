@@ -17,7 +17,7 @@
                 </div>
                 <div class="item-photo">
                     {% if page.largeImage %}
-                      <img src="{{ page.largeImage }}" style="max-width:100%; box-shadow:0px 3px 5px 0px rgba(0,0,0, .25); margin-bottom:1rem;" />
+                      <img src="{{site.baseurl}}{{ page.largeImage }}" style="max-width:100%; box-shadow:0px 3px 5px 0px rgba(0,0,0, .25); margin-bottom:1rem;" />
                       {% endif %}
                 </div>
                 <div class="item-description">
@@ -51,7 +51,7 @@
                    {% for coffee in sorted %}
                     <li class="project-item">
                       <a href="{{ coffee.url }}" class="project-name">
-                        <img src="{{ coffee.smallImage }}"/>
+                        <img src="{{site.baseurl}}{{ coffee.smallImage }}"/>
                         {{ coffee.title }}
                       </a>
                       <p>{{ coffee.shortDescription }}</p>
