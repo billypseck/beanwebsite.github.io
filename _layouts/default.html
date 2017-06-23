@@ -2,16 +2,18 @@
 <html>
     {% include head.html %}
 
-    <body class="layout-default">
+    <body class="layout-default {{page.title | slugify }}-page{% if page.page_image %} page-bg-image {% endif %}" {% if page.page_image %} style="background-image:url('{{site.baseurl}}{{page.page_image}}'){% endif %}">
         {% include top-nav.html %}
-        <div class="content-container">
-          <div class="main-content">
+        {% if page.page_image %}
+        <div class="page-image">
+        </div>
+        {% endif %}
+        <div class="content-container background-light-gray">
+          <div class="header-content">
             <div class="page-header">
               <h1 class="page-title">{{ page.title }}</h1>
             </div>
           </div>
-        </div>
-        <div class="content-container">
             <div class="main-content">
                 {{ content }}
             </div>
