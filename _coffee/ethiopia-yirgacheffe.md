@@ -1,6 +1,6 @@
 ---
 layout: product
-title: Ethiopia yirgacheffe
+title: Ethiopia Yirgacheffe
 permalink: /coffee/ethiopia-yirgacheffe/
 category: Coffee
 ingredients:
