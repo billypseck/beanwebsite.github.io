@@ -6,3 +6,5 @@ page_image: /assets/images/bean-bags.jpg
 ---
 
 # Bean is awesome!
+
+<div id="instafeed"></div>

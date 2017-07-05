@@ -1,25 +1,35 @@
-.flex-list {
+.flex-list,
+.flex-grid {
   display: flex;
   flex-flow: row wrap;
 
-  li {
+
+  .flex-item {
       margin-bottom: 4%;
+    }
 
-  }
-  &.flex-list-3-col li {
-    width: 30%;
-    margin-right:3%;
-
+  .flex-item-content {
+    padding: 1rem;
   }
 
-  &.flex-list-4-col li {
+  &.flex-list-3-col .flex-item,
+  &.flex-grid-3-col .flex-item {
+    width: 33.333%;
+
+  .flex-item-content:first-of-type {
+    padding-left: 0;
+  }
+
+  }
+
+  &.flex-list-4-col .flex-item {
     width: 23%;
     margin-right:2%;
 
   }
 
   @media (max-width: 900px) {
-    &.flex-list-4-col li {
+    &.flex-list-4-col .flex-item {
       width: 48%;
       margin-right: 2%;
 

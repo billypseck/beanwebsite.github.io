@@ -35,6 +35,7 @@
                     <p class="description">
                         {{ page.shortDescription }}
                     </p>
+                    {% if page.ingredients %}
                     <h3>Ingredients</h3>
                     <ul class="list-unstyled list-inline item-ingredients">
                         {% assign sorted = (page.ingredients | sort) %}
@@ -42,6 +43,7 @@
                           <li>{{ item }}</li>
                         {% endfor %}
                     </ul>
+                    {% endif %}
                 </div>
               </div>
                 <div class="related-items">
@@ -49,8 +51,8 @@
                   <ul class="projects flex-list flex-list-4-col">
                   {% assign sorted = (site.coffee | sort: 'sortOrder') %}
                    {% for coffee in sorted %}
-                    <li class="project-item">
-                      <a href="{{ coffee.url }}" class="project-name">
+                    <li class="project-item flex-item">
+                      <a href="{{site.baseurl}}{{ coffee.url }}" class="project-name">
                         <img src="{{site.baseurl}}{{ coffee.smallImage }}"/>
                         {{ coffee.title }}
                       </a>
