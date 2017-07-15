@@ -3,6 +3,7 @@ layout: default
 title: Coffee
 permalink: /coffee/
 ---
+
 <ul class="coffee-list flex-list flex-list-3-col">
 {% assign sorted = (site.coffee | sort: 'sortOrder') %}
  {% for coffee in sorted %}

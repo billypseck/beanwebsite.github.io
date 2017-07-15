@@ -14,18 +14,19 @@
       price: "5.00"
 
 - category: Bagels
+  image: salami-bagel.jpg
   items:
-    - title: Nancy's bagels and cream cheese or butter and jam
-      shortDescription:
+    - title: Nancy's bagel
+      shortDescription: Choice of cream cheese or butter and jam
       price: "3.50"
     - title: Veggie bagel deluxe
       shortDescription: Choice of bagel with cream cheese, sprouts, tomato, and red onion
       price: "5.50"
-    - title: Bagel with salami, cream cheese, sprouts, tomato, and red onion
-      shortDescription:
+    - title: Salami bagel
+      shortDescription: With cream cheese, sprouts, tomato, and red onion
       price: "6.00"
-    - title: Bagel and melted brie with sprouts, tomato, and red onion
-      shortDescription:
+    - title: Melted brie bagel
+      shortDescription: With sprouts, tomato, and red onion
       price: "6.00"
 
 - category: Salads
@@ -33,7 +34,7 @@
     - title: Chopped salad with fresh vegetables
       shortDescription: Boiled egg, and garlic crostini tossed in a golden balsamic vinaigrette
       price: "8.00"
-    - title: Chopped salad with a heaping scoop of curried tuna
+    - title: Chopped salad with curried tuna
       shortDescription:
       price: "8.00"
     - title: Hummus Plate
@@ -41,6 +42,7 @@
       price: "6.50"
 
 - category: Sandwiches
+  image: meditteranean-bagel.jpg
   items:
     - title: Tuna salad
       shortDescription: House-made curried tuna with apples, raisins, and sweet onions served on a Wiltshire baguette

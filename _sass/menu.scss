@@ -2,14 +2,34 @@
   margin-bottom: 3rem;
 }
 .menu-item {
+  padding: .5rem;
   margin-bottom: 1rem;
+  background: #fff;
 }
-
+.menu-item-category {
+  background: green;
+  color: #fff;
+  padding: .5rem;
+  border-bottom: 4px solid #a6cba6;
+}
 .menu-item-title, .menu-item-price {
   display: inline-block;
   font-size: 1.25rem;
 }
+.menu-item-price {display:block;font-weight: 700;}
 
 .menu-item-description {
   display: block;
+  color: #999;
+}
+
+.menu-item-category-image {
+  float: right;
+  width: 100px;
+  margin-top: -50px;
+}
+@media only screen and (max-width: 768px) {
+  .menu-item-category-image {
+    display: none;
+  }
 }

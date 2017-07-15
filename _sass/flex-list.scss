@@ -2,8 +2,39 @@
 .flex-grid {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-between;
 
 
+    &.small-flex-list-1-col .flex-item {
+        width: 100%;
+
+    }
+&.flex-list-2-col .flex-item {
+  width: 100%;
+}
+
+
+  @media only screen and (min-width: 480px) {
+
+      &.flex-list-3-col .flex-item,
+      &.flex-grid-3-col .flex-item {
+        width: 50%;
+
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    &.flex-list-2-col .flex-item {
+      width: 45%;
+    }
+  &.flex-list-3-col .flex-item,
+  &.flex-grid-3-col .flex-item {
+    width: 33.333%;
+
+  .flex-item-content:first-of-type {
+    padding-left: 0;
+  }
+  }
+}
   .flex-item {
       margin-bottom: 4%;
     }
@@ -12,15 +43,9 @@
     padding: 1rem;
   }
 
-  &.flex-list-3-col .flex-item,
-  &.flex-grid-3-col .flex-item {
-    width: 33.333%;
 
-  .flex-item-content:first-of-type {
-    padding-left: 0;
-  }
 
-  }
+
 
   &.flex-list-4-col .flex-item {
     width: 23%;

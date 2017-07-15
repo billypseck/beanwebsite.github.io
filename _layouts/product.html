@@ -5,10 +5,10 @@
         {% include top-nav.html %}
         <div class="page-header">
           <div class="main-content">
-            <h1 class="page-title">{{ page.category }}s</h1>
+            <h1 class="page-title">{{ page.category }}</h1>
           </div>
         </div>
-        <div class="content-container">
+        <div class="content-container background-light-gray">
             <div class="main-content">
               <div class="item-details">
                 <div class="item-info">
@@ -27,11 +27,13 @@
                       <span style="width:{{ page.roast }}%;" class="item-roast-amount"></span>
                     </span>
                     {% endif %}
+                    {% comment %}
                     {% if page.soldOut %}
                       <button disabled="disabled">Sold Out</button>
                     {% else %}
                       <button>Buy Now</button>
                     {% endif %}
+                    {% endcomment %}
                     <p class="description">
                         {{ page.shortDescription }}
                     </p>
