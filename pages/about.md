@@ -2,9 +2,10 @@
 layout: default
 title: About
 permalink: /about/
+page_header_image: /assets/images/beans.jpg
 ---
 
-In August of 2005, I left behind 25 years in the service industry and moved on to roasting coffee. For the next 10 years I mastered this craft while working as lead roaster for Java Brewing Co. During this period, I roasted over 8 million pounds of coffee. Roasting coffee came naturally to me, and I was happy to use my creative side to develop delicious roast profiles with coffees from over 13 countries. 
+In August of 2005, I left behind 25 years in the service industry and moved on to roasting coffee. For the next 10 years I mastered this craft while working as lead roaster for Java Brewing Co. During this period, I roasted over 8 million pounds of coffee. Roasting coffee came naturally to me, and I was happy to use my creative side to develop delicious roast profiles with coffees from over 13 countries.
 
 As a roaster of specialty coffee, I am always looking for the sweet spot of a particular bean, such as the blueberry nuances that can be found in Ethiopian Harrar, or the bright citrus notes of Costa Rican Naranjo. My attention to detail allows me to create a very consistent product while always trying to raise the bar.			
 

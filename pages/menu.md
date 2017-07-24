@@ -2,11 +2,13 @@
 title: Menu
 layout: default
 permalink: /menu/
+page_header_image: /assets/images/beans.jpg
+
 ---
 <div class="flex-list flex-list-2-col">
 {% for category in site.data.menu %}
 <div class="menu-category flex-item ">
-
+<div class="flex-item-content">
 <h2 class="menu-item-category">{% if category.image %}
 <img class="menu-item-category-image" src="{{ site.baseurl }}/assets/images/food/{{ category.image }}">
 {% endif %}{{ category.category }}</h2>
@@ -20,6 +22,7 @@ permalink: /menu/
 </li>
 {% endfor %}
 </ul>
+</div>
 </div>
 {% endfor %}
 </div>
