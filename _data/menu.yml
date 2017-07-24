@@ -1,8 +1,8 @@
 - category: Breakfast
   items:
     - title: Pastries from Wiltshire Bakery
-      shortDescription:
-      price:
+      shortDescription: Fresh croissants, morning buns, scones, and other flaky, sweet treats
+      price: varies
     - title: Fresh fruit, granola, yogurt and honey
       shortDescription:
       price: "5.00"
@@ -32,10 +32,10 @@
 - category: Salads
   items:
     - title: Chopped salad with fresh vegetables
-      shortDescription: Boiled egg, and garlic crostini tossed in a golden balsamic vinaigrette
+      shortDescription: Tossed in a golden balsamic vinaigrette, with a boiled egg, and garlic crostini
       price: "8.00"
     - title: Chopped salad with curried tuna
-      shortDescription:
+      shortDescription: House-made curried tuna with apples, raisins, and sweet onions
       price: "8.00"
     - title: Hummus Plate
       shortDescription: Fresh vegetables, pita chips, olives, and house-made hummus
@@ -54,5 +54,5 @@
       shortDescription: Served with mustard, mayo, sprouts, and tomato
       price: "8.50"
     - title: The Mediterranean
-      shortDescription: House-made humus, feta, romaine, cucumber, tomato, Kalamata olives, and pepperoncini served on a bagel
+      shortDescription: House-made hummus, feta, romaine, cucumber, tomato, Kalamata olives, and pepperoncini served on a bagel
       price: "8.50"
