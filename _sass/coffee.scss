@@ -1,9 +1,10 @@
 .item-roast {
-  background: #efefef;
+  background: #fff;
   display: block;
   height: 2rem;
   font-size: .85rem;
   margin-bottom: 1.5rem;
+  width: 200px;
 }
 .item-roast-amount::before { content: 'light'; padding:.25rem;padding-left: .5rem;display:inline-block; }
 .item-roast::before { content: 'dark';float:right; padding:.25rem;display:inline-block;padding-right: .5rem;}
@@ -12,10 +13,12 @@
   background-color: tan;
   display: block;
   height: 2rem;
+  background-image: url('/assets/images/icons/icon-bean.gif');
+  background-size: contain;
 }
 
 .coffee-list a {
   text-decoration: none;
 }
-.coffee-name {display:block;font-size: 1.25rem; text-decoration: none;margin-top: .5rem; margin-bottom: .5rem; color: green;font-weight: 700;}
+.coffee-name {color: #333;display:block;font-size: 1.25rem; text-decoration: none;margin-top: .5rem; margin-bottom: .5rem;font-weight: 700;font-family: 'Special Elite', serif;}
 .coffee-description {line-height: 1.25; font-size: .9rem; }

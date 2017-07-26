@@ -14,7 +14,6 @@
       price: "5.00"
 
 - category: Bagels
-  image: salami-bagel.jpg
   items:
     - title: Nancy's bagel
       shortDescription: Choice of cream cheese or butter and jam
@@ -42,7 +41,6 @@
       price: "6.50"
 
 - category: Sandwiches
-  image: meditteranean-bagel.jpg
   items:
     - title: Tuna salad
       shortDescription: House-made curried tuna with apples, raisins, and sweet onions served on a Wiltshire baguette

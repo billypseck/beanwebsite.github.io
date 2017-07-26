@@ -1,7 +1,7 @@
-@import url( 'https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Open+Sans:400,600');
+@import url( 'https://fonts.googleapis.com/css?family=Special+Elite:400,700|Open+Sans:400,600');
 
 html {
-    background: #a6cba6;
+    background: #48ab48;
     font-family: 'Open Sans', sans-serif;
 }
 body {
@@ -22,15 +22,15 @@ p {
   padding-bottom: 4rem;
   padding-top: 2rem;
   font-weight: 700;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Special Elite', serif;
+  display: inline-block;
 
   &:after {
     content: '';
     display: block;
     text-align: center;
     height: 8px;
-    background: green;
-    width: 25%;
+    background: #48ab48;
   }
 }
 
@@ -88,7 +88,7 @@ p {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
     font-weight: 700;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Special Elite', serif;
 }
 
 .item-price {
@@ -100,7 +100,7 @@ p {
 
 .item-photo {
     width: 50%;
-    margin-top: -5rem;
+    margin-top: -8rem;
     float: left;
 }
 
@@ -123,7 +123,7 @@ h2 {
   @extend .page-title;
   font-size: 2.5rem;
   border: none;
-  color: green;
+  display: block;
   &:after {
     content: none;
   }
@@ -133,7 +133,7 @@ h3,h4 {
     font-size: 1rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Special Elite', serif;
 }
 
 .item-usage {
