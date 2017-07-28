@@ -1,19 +1,18 @@
 .item-roast {
   background: #fff;
-  display: block;
+  display: table;
   height: 2rem;
   font-size: .85rem;
   margin-bottom: 1.5rem;
-  width: 200px;
+  width: 280px;
+  span {
+    display: table-cell;
+  }
 }
-.item-roast-amount::before { content: 'light'; padding:.25rem;padding-left: .5rem;display:inline-block; }
-.item-roast::before { content: 'dark';float:right; padding:.25rem;display:inline-block;padding-right: .5rem;}
-
 .item-roast-amount {
   background-color: tan;
-  display: block;
   height: 2rem;
-  background-image: url('/assets/images/icons/icon-bean.gif');
+  background-image: url('../assets/images/icons/icon-bean.gif');
   background-size: contain;
 }
 

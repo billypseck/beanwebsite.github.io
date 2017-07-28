@@ -23,15 +23,8 @@ p {
   padding-top: 2rem;
   font-weight: 700;
   font-family: 'Special Elite', serif;
-  display: inline-block;
-
-  &:after {
-    content: '';
-    display: block;
-    text-align: center;
-    height: 8px;
-    background: #48ab48;
-  }
+  display: block;
+  clear:both;
 }
 
 .layout-product .page-header,
@@ -139,7 +132,11 @@ h3,h4 {
 .item-usage {
     margin-bottom: 0.5rem;
 }
-
+.readability {
+  p, li, span{
+  max-width: 55ch;
+}
+}
 button { background: #368138; border: none; padding: 0.25rem 0.5rem; font-size: 1rem; color: #fff; margin-bottom: 0.5rem; border-radius: 2px; }
 button[disabled] { background: #ce3c37; color: #fff; }
 
