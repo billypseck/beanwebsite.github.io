@@ -2,7 +2,8 @@
 layout: default
 title: About
 permalink: /about/
-page_header_image: /assets/images/beans.jpg
+page_header_image: /assets/images/coverphotos/billy-roasting.jpg
+# page_header_image: /assets/images/coverphotos/roasting.jpg
 ---
 
 As a roaster of specialty coffee, I am always looking for the sweet spot of a particular bean, such as the blueberry nuances that can be found in Ethiopian varieties, or the bright citrus notes of coffees from Costa Rica. Attention to detail allows me to create a very consistent product while always trying to raise the bar.			

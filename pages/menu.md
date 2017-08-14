@@ -2,7 +2,8 @@
 title: Menu
 layout: default
 permalink: /menu/
-page_header_image: /assets/images/beans.jpg
+page_header_image: /assets/images/coverphotos/veg-bagle-delux.jpg
+# page_header_image: /assets/images/coverphotos/mediteranian.jpg
 
 ---
 <div class="flex-list flex-list-2-col">

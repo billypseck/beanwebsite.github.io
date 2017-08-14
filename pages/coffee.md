@@ -2,8 +2,7 @@
 layout: default
 title: Coffee
 permalink: /coffee/
-page_header_image: /assets/images/beans.jpg
-
+page_header_image: /assets/images/coverphotos/pouring-coffee.jpg
 ---
 
 <ul class="coffee-list flex-list flex-list-3-col">
