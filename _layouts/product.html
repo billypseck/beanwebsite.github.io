@@ -25,6 +25,8 @@
                       {% endif %}
                 </div>
                 <div class="item-description">
+                  <p>Roast style: {{ page.roast_style }}</p>
+                    {% comment %}
                     {% if page.roast %}
                     <h3>Roast scale</h3>
                     <span class="item-roast">
@@ -33,6 +35,7 @@
                       <span class="item-roast-dark">Dark</span>
                     </span>
                     {% endif %}
+                    {% endcomment %}
                     {% comment %}
                     {% if page.soldOut %}
                       <button disabled="disabled">Sold Out</button>
