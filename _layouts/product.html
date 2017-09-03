@@ -4,28 +4,29 @@
     <body class="layout-product">
         {% include top-nav.html %}
         <div class="page-header">
-          <div class="main-content">
-            <h1 class="page-title">{{ page.category }}</h1>
+          <div class="header-content">
+            <h1 class="page-title">{{ page.title }}</h1>
           </div>
         </div>
         <div class="content-container background-light-gray">
             <div class="main-content">
               <div class="item-details">
-
+  {% comment %}
                 <div class="item-info">
                     <h2 class="item-title">{{ page.title }}</h2>
-                {% comment %}
-                <span class="item-price">${{ page.price }}</span>
-                {% endcomment %}
-                </div>
 
+                <span class="item-price">${{ page.price }}</span>
+
+                </div>
+  {% endcomment %}
                 <div class="item-photo">
                     {% if page.largeImage %}
                       <img src="{{site.baseurl}}{{ page.largeImage }}" style="max-width:100%; box-shadow:0px 3px 5px 0px rgba(0,0,0, .25); margin-bottom:1rem;" />
                       {% endif %}
                 </div>
                 <div class="item-description">
-                  <p>Roast style: {{ page.roast_style }}</p>
+                  <p>Notes: {{ page.shortDescription }}<br>Roast style: {{ page.roast_style }}
+                    </p>
                     {% comment %}
                     {% if page.roast %}
                     <h3>Roast scale</h3>
@@ -43,9 +44,6 @@
                       <button>Buy Now</button>
                     {% endif %}
                     {% endcomment %}
-                    <p class="description">
-                        {{ page.shortDescription }}
-                    </p>
                     {% if page.ingredients %}
                     <h3>Ingredients</h3>
                     <ul class="list-unstyled list-inline item-ingredients">
@@ -58,7 +56,7 @@
                 </div>
               </div>
                 <div class="related-items">
-                  <h4>Other {{ page.category }}s</h4>
+                  <h2>Other {{ page.category }}s</h2>
                   <ul class="projects flex-list flex-list-4-col">
                   {% assign sorted = (site.coffee | sort: 'sortOrder') %}
                    {% for coffee in sorted %}
