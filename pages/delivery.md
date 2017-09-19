@@ -5,9 +5,9 @@ permalink: /delivery/
 ---
 
 <div class="left-col">
-<p>Are you interested in having a bag of beans delivered to you?
-If you live inside the outlined map below and are interested in have a bag of beans delivered to you.</p>
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<p>
+If you live inside the outlined map and are interested in having a bag of beans delivered to you sign up for our reoccurring bike delivery service.</p>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="delivery-form">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="9GD7MYC6Z2328">
 
@@ -18,10 +18,10 @@ If you live inside the outlined map below and are interested in have a bag of be
 </select></p>
 
 <p><input type="hidden" name="on1" value="Delivery address"><label>Delivery address</label><br>
-<input type="text" name="os1" maxlength="200">
+<input type="text" name="os1" maxlength="200" style="width:75%;">
 </p>
 <p><input type="hidden" name="on2" value="Delivery instructions"><label>Delivery instructions</label><br>
-<input type="text" name="os2" maxlength="200"></p>
+<input type="text" name="os2" maxlength="200" style="width:75%;"></p>
 
 <input type="hidden" name="currency_code" value="USD">
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
