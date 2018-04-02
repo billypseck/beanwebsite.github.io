@@ -8,10 +8,10 @@
       price: "5.00"
     - title: Fresh fruit cup
       shortDescription:
-      price: "5.00"
+      price: "3.75"
     - title: Overnight oats of the day
       shortDescription:
-      price: "5.00"
+      price: "3.75"
 
 - category: Bagels
   items:
@@ -47,7 +47,7 @@
       price: "8.00"
     - title: Turkey & Swiss
       shortDescription: Served on a baguette with sprouts, tomato, red onion, mayo and Dijon
-      price: "7.00"
+      price: "8.00"
     - title: Turkey & Salami Melt
       shortDescription: Served with mustard, mayo, sprouts, and tomato
       price: "8.50"
